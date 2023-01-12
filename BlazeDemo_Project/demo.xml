@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="firstName" value="bala"></parameter>
+	<parameter name="address" value="PallaVaram"></parameter>
+	<parameter name="city" value="Chennai"></parameter>
+	<parameter name="state" value="TamilNadu"></parameter>
+	<parameter name="zip" value="600019"></parameter>
+	<parameter name="cardType" value="Visa"></parameter>
+	<parameter name="cardNumber" value="1234567891011123"></parameter>
+	<parameter name="month" value="01"></parameter>
+	<parameter name="year" value="2023"></parameter>
+	<parameter name="nameOfCard" value="bala"></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.testng.BlazeDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

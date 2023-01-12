@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-05T23:23:38 IST" name="Suite" finished-at="2023-01-05T23:24:06 IST" duration-ms="28563">
+    <groups>
+    </groups>
+    <test started-at="2023-01-05T23:23:38 IST" name="Test" finished-at="2023-01-05T23:24:06 IST" duration-ms="28563">
+      <class name="com.testng.BlazeDemo">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.testng.BlazeDemo@4f83df68]" started-at="2023-01-05T23:23:34 IST" name="browserLaunch" finished-at="2023-01-05T23:23:38 IST" duration-ms="3859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="pageOne()[pri:1, instance:com.testng.BlazeDemo@4f83df68]" started-at="2023-01-05T23:23:38 IST" name="pageOne" finished-at="2023-01-05T23:23:48 IST" duration-ms="10327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageOne -->
+        <test-method signature="pageTwo()[pri:2, instance:com.testng.BlazeDemo@4f83df68]" started-at="2023-01-05T23:23:48 IST" name="pageTwo" finished-at="2023-01-05T23:23:51 IST" duration-ms="2507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTwo -->
+        <test-method signature="pageThree(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.testng.BlazeDemo@4f83df68]" started-at="2023-01-05T23:23:51 IST" name="pageThree" finished-at="2023-01-05T23:24:06 IST" duration-ms="15502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PallaVaram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TamilNadu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[600019]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1234567891011123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[01]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[bala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageThree -->
+        <test-method signature="pageFour()[pri:4, instance:com.testng.BlazeDemo@4f83df68]" started-at="2023-01-05T23:24:06 IST" name="pageFour" finished-at="2023-01-05T23:24:06 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageFour -->
+      </class> <!-- com.testng.BlazeDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
